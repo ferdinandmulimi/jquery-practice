@@ -2,14 +2,14 @@
 //Shortcuts replace - JQuery with $
 $(document).ready(function(){
     $("h1").click(function() {
-       $("img").hide();
-    });
+       $("img").hide()
+    })
 
-    $("p").click(function () {
-    alert("This is a paragraph.")
-    });
+    $("p").click(function() {
+   $("img").show()
+    })
 
-    $("img").click(function () {
+    $("img").click(function() {
     alert("This is an image.")
-    });
+    })
 })
