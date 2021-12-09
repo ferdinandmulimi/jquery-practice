@@ -6,22 +6,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>HTML help</title>
         <!--Jquery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="jquery.js"></script>
-
 </head>
- 
-<body>
+    <body>
+
     <div class="container">
-        <h1>HTML help</h1>
+        <h1>peek-a-boo</h1>
+        <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an
+            innocent children's pastime, you may change your mind when you learn of its treacherous history.</p>
 
-        <p>This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked
-            on.</p>
+            <div class="walrus-hidden">
+                <p>Let's play peek-a-boo...<span class="clickable">Finya mwanzo</span> to see the surprise!</p>
+            </div>
 
-        <p>Look at this cute walrus!</p>
+            <div class="walrus-showing">
+            <p>Huyu mnyama ni supu! <span class="clickable">Finya hapa tena</span> to hide her again.</p>
+            </div>
+
         <img src="https://bit.ly/3ApqC2t">
     </div>
-</body>
+<script src="jquery.js"></script>
+    </body>
 
 </html>

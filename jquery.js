@@ -1,15 +1,7 @@
-// Analyse anatomy of the JQuery
-//Shortcuts replace - JQuery with $
-$(document).ready(function(){
-    $("h1").click(function() {
-       $("img").hide()
-    })
+$(function() {
+    $(".clickable").trigger-any(function() {
+        $(".walrus-showing").toggle();
 
-    $("p").click(function() {
-   $("img").show()
-    })
-
-    $("img").click(function() {
-    alert("This is an image.")
-    })
-})
+        $(".walrus-hidden").toggle();
+    });
+});
